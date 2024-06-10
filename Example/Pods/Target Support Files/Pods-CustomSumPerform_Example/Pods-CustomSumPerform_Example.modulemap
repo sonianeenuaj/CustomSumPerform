@@ -1,0 +1,6 @@
+framework module Pods_CustomSumPerform_Example {
+  umbrella header "Pods-CustomSumPerform_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CustomSumPerform {
+  umbrella header "CustomSumPerform-umbrella.h"
+
+  export *
+  module * { export * }
+}

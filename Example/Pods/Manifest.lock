@@ -1,0 +1,16 @@
+PODS:
+  - CustomSumPerform (0.1.0)
+
+DEPENDENCIES:
+  - CustomSumPerform (from `../`)
+
+EXTERNAL SOURCES:
+  CustomSumPerform:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomSumPerform: f21438bf6a0848c9259349b00e93208ae51a1c95
+
+PODFILE CHECKSUM: 8e1f58b7146a2623438a27d971f2e6b69b3f7356
+
+COCOAPODS: 1.15.2

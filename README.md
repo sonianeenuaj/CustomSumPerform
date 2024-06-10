@@ -1,6 +1,6 @@
 # CustomSumPerform
 
-[![CI Status](https://img.shields.io/travis/Sonianeenu-aj/CustomSumPerform.svg?style=flat)](https://travis-ci.org/Sonianeenu-aj/CustomSumPerform)
+[![CI Status](https://img.shields.io/travis/sonianeenuaj/CustomSumPerform.svg?style=flat)](https://travis-ci.org/sonianeenuaj/CustomSumPerform)
 [![Version](https://img.shields.io/cocoapods/v/CustomSumPerform.svg?style=flat)](https://cocoapods.org/pods/CustomSumPerform)
 [![License](https://img.shields.io/cocoapods/l/CustomSumPerform.svg?style=flat)](https://cocoapods.org/pods/CustomSumPerform)
 [![Platform](https://img.shields.io/cocoapods/p/CustomSumPerform.svg?style=flat)](https://cocoapods.org/pods/CustomSumPerform)
@@ -22,7 +22,7 @@ pod 'CustomSumPerform'
 
 ## Author
 
-Sonianeenu-aj, sonianeenu@gmail.com
+sonianeenuaj, sonianeenu@gmail.com
 
 ## License
 

@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09BC2831A632FCB1FA04CA8167883926 /* Pods-CustomSumPerform_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 241DFB42167BD4B7E9820890C795DFD7 /* Pods-CustomSumPerform_Tests-dummy.m */; };
+		1DD91D42288EE8FE0F93B33DF7B062B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		347B0F4B16B648A4205B2BEF20D51663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		43BFD4FD78D2AF9BB33F6C90952D05D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		55A30F2E9D0CC0C3F7DCABB53955F4DA /* CustomSumPerform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06900AD42FD0396011D4157887582F8 /* CustomSumPerform.swift */; };
+		58AFABF56248CF5076E43675D91BFCE6 /* Pods-CustomSumPerform_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E764B00D4D2A25E73FA21F3172AD917F /* Pods-CustomSumPerform_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61630A4DC30B4B35C440DAED816A7515 /* Pods-CustomSumPerform_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F086C1F09BD81F3163C6237F08065A3 /* Pods-CustomSumPerform_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C096A3654C4115C6E81B5FE0978E7187 /* CustomSumPerform-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 690D06D4777F0F11F592B4B20F3D7CD8 /* CustomSumPerform-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C75F92D0695252977B5D318C8D651D97 /* CustomSumPerform-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E06592EE066D9495E77EE5F5F7F90A /* CustomSumPerform-dummy.m */; };
+		E9C93CECD558C5DABC6A7299F2992847 /* Pods-CustomSumPerform_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF64602D7B48122AEBE82E3878D5CE /* Pods-CustomSumPerform_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EBEB84108B70E30311CEDF4FB4D87CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFEE8FE863D41C001761CA4D740A63E8;
+			remoteInfo = "Pods-CustomSumPerform_Example";
+		};
+		B3C6D65E0B28BAEB9ABE855BCA9B6F19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC78E4474E4B7BA0AA7E25DB68074270;
+			remoteInfo = CustomSumPerform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002AB7E2A1EB3EEB742B40951B71334F /* Pods-CustomSumPerform_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomSumPerform_Example.release.xcconfig"; sourceTree = "<group>"; };
+		021C9390155A2EEB1950849BCF0EA2A4 /* Pods-CustomSumPerform_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomSumPerform_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AB1AA5AEB504CA3635807E6B4BC5D4C /* CustomSumPerform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomSumPerform.debug.xcconfig; sourceTree = "<group>"; };
+		13669ADA2CDC838A9947CCA9D2CBA9BC /* Pods-CustomSumPerform_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomSumPerform_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		144858B9F93ED82F408C3095B2741508 /* CustomSumPerform-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomSumPerform-prefix.pch"; sourceTree = "<group>"; };
+		241DFB42167BD4B7E9820890C795DFD7 /* Pods-CustomSumPerform_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomSumPerform_Tests-dummy.m"; sourceTree = "<group>"; };
+		313A0743F28620E784874679F161DE94 /* CustomSumPerform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomSumPerform.release.xcconfig; sourceTree = "<group>"; };
+		3843AC17C49A57250200A1182AEA1279 /* Pods-CustomSumPerform_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomSumPerform_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F086C1F09BD81F3163C6237F08065A3 /* Pods-CustomSumPerform_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomSumPerform_Example-umbrella.h"; sourceTree = "<group>"; };
+		496145D4224851CD17167031B74E5772 /* CustomSumPerform-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomSumPerform-Info.plist"; sourceTree = "<group>"; };
+		4DC414A7148E3247176187D958F0EC49 /* Pods-CustomSumPerform_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomSumPerform_Example-frameworks.sh"; sourceTree = "<group>"; };
+		55053103F517225D00DB1E998695F2F6 /* Pods-CustomSumPerform_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomSumPerform_Tests-Info.plist"; sourceTree = "<group>"; };
+		690D06D4777F0F11F592B4B20F3D7CD8 /* CustomSumPerform-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomSumPerform-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78CC2BA6804931096C77F43CA632B404 /* Pods-CustomSumPerform_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomSumPerform_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7D97A21C2C404AD1E97F5F703A9CC69F /* Pods-CustomSumPerform_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomSumPerform_Example.modulemap"; sourceTree = "<group>"; };
+		834EE173F0B5EC5313239CD0C6305620 /* Pods-CustomSumPerform_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomSumPerform_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAC62B0C29E3784EBCDA5C5950E0306 /* CustomSumPerform.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomSumPerform.modulemap; sourceTree = "<group>"; };
+		A06900AD42FD0396011D4157887582F8 /* CustomSumPerform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomSumPerform.swift; path = CustomSumPerform/Classes/CustomSumPerform.swift; sourceTree = "<group>"; };
+		A169E44EECA83BD1123B21F223677D35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B48F11C2B96BCF3EBEE1C1B488E24DD0 /* Pods_CustomSumPerform_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSumPerform_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57E012BD481F4EB6787C596DD6487C7 /* CustomSumPerform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomSumPerform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08B77C25DBC6C2F96F7923C27BD818A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CAAF64602D7B48122AEBE82E3878D5CE /* Pods-CustomSumPerform_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomSumPerform_Example-dummy.m"; sourceTree = "<group>"; };
+		CD5F48D5438C8EB4B55C00F5496466C7 /* CustomSumPerform.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomSumPerform.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CFB1BA01024C5E775452927E9E2DDFA1 /* Pods-CustomSumPerform_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomSumPerform_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2294E7953CEE8FF51B7157AFB0A64A2 /* Pods_CustomSumPerform_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSumPerform_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EBC30C453504CD31F35CDAA305BFAD /* Pods-CustomSumPerform_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomSumPerform_Tests.modulemap"; sourceTree = "<group>"; };
+		E0E06592EE066D9495E77EE5F5F7F90A /* CustomSumPerform-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomSumPerform-dummy.m"; sourceTree = "<group>"; };
+		E764B00D4D2A25E73FA21F3172AD917F /* Pods-CustomSumPerform_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomSumPerform_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F59E905A5B0BE161830C1B5C4B2CD284 /* Pods-CustomSumPerform_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomSumPerform_Example-Info.plist"; sourceTree = "<group>"; };
+		F69EAF322F8C5A37B084397C1F374E2B /* Pods-CustomSumPerform_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomSumPerform_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E7E1E29129B3855D9E2D34E6272D333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD91D42288EE8FE0F93B33DF7B062B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393169F4DE4922733F87D776EE51183D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BFD4FD78D2AF9BB33F6C90952D05D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2002DA838D40403283592CB9C01B4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347B0F4B16B648A4205B2BEF20D51663 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C38AE408E4F40EF126823E73790407 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F5F39299B49F8524D1B97D10E26E560 /* CustomSumPerform */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0913834069AA92DE12F140B44CB59D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57E012BD481F4EB6787C596DD6487C7 /* CustomSumPerform.framework */,
+				B48F11C2B96BCF3EBEE1C1B488E24DD0 /* Pods_CustomSumPerform_Example.framework */,
+				D2294E7953CEE8FF51B7157AFB0A64A2 /* Pods_CustomSumPerform_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F5F39299B49F8524D1B97D10E26E560 /* CustomSumPerform */ = {
+			isa = PBXGroup;
+			children = (
+				A06900AD42FD0396011D4157887582F8 /* CustomSumPerform.swift */,
+				BC2E3987F41BAC6B2E9B4537818570DB /* Pod */,
+				A9C9912942BC23A3840A1A5F78BC7A56 /* Support Files */,
+			);
+			name = CustomSumPerform;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57AE3616235B9EB26DF843897B419027 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66C148EA5E251D25CDE3DBD0ED0FC141 /* Pods-CustomSumPerform_Example */,
+				FD90C1F2002F64F4DB1365E8687B7E2A /* Pods-CustomSumPerform_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66C148EA5E251D25CDE3DBD0ED0FC141 /* Pods-CustomSumPerform_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7D97A21C2C404AD1E97F5F703A9CC69F /* Pods-CustomSumPerform_Example.modulemap */,
+				021C9390155A2EEB1950849BCF0EA2A4 /* Pods-CustomSumPerform_Example-acknowledgements.markdown */,
+				CFB1BA01024C5E775452927E9E2DDFA1 /* Pods-CustomSumPerform_Example-acknowledgements.plist */,
+				CAAF64602D7B48122AEBE82E3878D5CE /* Pods-CustomSumPerform_Example-dummy.m */,
+				4DC414A7148E3247176187D958F0EC49 /* Pods-CustomSumPerform_Example-frameworks.sh */,
+				F59E905A5B0BE161830C1B5C4B2CD284 /* Pods-CustomSumPerform_Example-Info.plist */,
+				3F086C1F09BD81F3163C6237F08065A3 /* Pods-CustomSumPerform_Example-umbrella.h */,
+				78CC2BA6804931096C77F43CA632B404 /* Pods-CustomSumPerform_Example.debug.xcconfig */,
+				002AB7E2A1EB3EEB742B40951B71334F /* Pods-CustomSumPerform_Example.release.xcconfig */,
+			);
+			name = "Pods-CustomSumPerform_Example";
+			path = "Target Support Files/Pods-CustomSumPerform_Example";
+			sourceTree = "<group>";
+		};
+		A9C9912942BC23A3840A1A5F78BC7A56 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC62B0C29E3784EBCDA5C5950E0306 /* CustomSumPerform.modulemap */,
+				E0E06592EE066D9495E77EE5F5F7F90A /* CustomSumPerform-dummy.m */,
+				496145D4224851CD17167031B74E5772 /* CustomSumPerform-Info.plist */,
+				144858B9F93ED82F408C3095B2741508 /* CustomSumPerform-prefix.pch */,
+				690D06D4777F0F11F592B4B20F3D7CD8 /* CustomSumPerform-umbrella.h */,
+				0AB1AA5AEB504CA3635807E6B4BC5D4C /* CustomSumPerform.debug.xcconfig */,
+				313A0743F28620E784874679F161DE94 /* CustomSumPerform.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CustomSumPerform";
+			sourceTree = "<group>";
+		};
+		BC2E3987F41BAC6B2E9B4537818570DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F48D5438C8EB4B55C00F5496466C7 /* CustomSumPerform.podspec */,
+				C08B77C25DBC6C2F96F7923C27BD818A /* LICENSE */,
+				A169E44EECA83BD1123B21F223677D35 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				07C38AE408E4F40EF126823E73790407 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0913834069AA92DE12F140B44CB59D68 /* Products */,
+				57AE3616235B9EB26DF843897B419027 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD90C1F2002F64F4DB1365E8687B7E2A /* Pods-CustomSumPerform_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D5EBC30C453504CD31F35CDAA305BFAD /* Pods-CustomSumPerform_Tests.modulemap */,
+				3843AC17C49A57250200A1182AEA1279 /* Pods-CustomSumPerform_Tests-acknowledgements.markdown */,
+				F69EAF322F8C5A37B084397C1F374E2B /* Pods-CustomSumPerform_Tests-acknowledgements.plist */,
+				241DFB42167BD4B7E9820890C795DFD7 /* Pods-CustomSumPerform_Tests-dummy.m */,
+				55053103F517225D00DB1E998695F2F6 /* Pods-CustomSumPerform_Tests-Info.plist */,
+				E764B00D4D2A25E73FA21F3172AD917F /* Pods-CustomSumPerform_Tests-umbrella.h */,
+				13669ADA2CDC838A9947CCA9D2CBA9BC /* Pods-CustomSumPerform_Tests.debug.xcconfig */,
+				834EE173F0B5EC5313239CD0C6305620 /* Pods-CustomSumPerform_Tests.release.xcconfig */,
+			);
+			name = "Pods-CustomSumPerform_Tests";
+			path = "Target Support Files/Pods-CustomSumPerform_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39C9EC0F340CA0B60750E059DE03879C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C096A3654C4115C6E81B5FE0978E7187 /* CustomSumPerform-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A716B7B9E2608A5BB63CEB56D2F9969B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61630A4DC30B4B35C440DAED816A7515 /* Pods-CustomSumPerform_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27D6E8B5DA4E52FC980791B7561FA18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AFABF56248CF5076E43675D91BFCE6 /* Pods-CustomSumPerform_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		096710A87156A05A99B9FAED8C6FB51C /* Pods-CustomSumPerform_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7162FFFDDE72A6E5F30CD3FC6C51D362 /* Build configuration list for PBXNativeTarget "Pods-CustomSumPerform_Tests" */;
+			buildPhases = (
+				C27D6E8B5DA4E52FC980791B7561FA18 /* Headers */,
+				56F97438F26AB02A82DB77E923287454 /* Sources */,
+				A2002DA838D40403283592CB9C01B4A1 /* Frameworks */,
+				A17FFF49B80F6DA1EF96ABBB6E9F9EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FCA3B552EC526B32131C8577CC1912B /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomSumPerform_Tests";
+			productName = Pods_CustomSumPerform_Tests;
+			productReference = D2294E7953CEE8FF51B7157AFB0A64A2 /* Pods_CustomSumPerform_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC78E4474E4B7BA0AA7E25DB68074270 /* CustomSumPerform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34085A989D4DDC041F4CEFB599BFBDD /* Build configuration list for PBXNativeTarget "CustomSumPerform" */;
+			buildPhases = (
+				39C9EC0F340CA0B60750E059DE03879C /* Headers */,
+				9CAB7BA715AB8E6ED72FBC7C987D08C4 /* Sources */,
+				393169F4DE4922733F87D776EE51183D /* Frameworks */,
+				573B5093466A2914C559239FF2CFB9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomSumPerform;
+			productName = CustomSumPerform;
+			productReference = B57E012BD481F4EB6787C596DD6487C7 /* CustomSumPerform.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFEE8FE863D41C001761CA4D740A63E8 /* Pods-CustomSumPerform_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082A51BA9289A7A9A3A8FAB7CCE9323D /* Build configuration list for PBXNativeTarget "Pods-CustomSumPerform_Example" */;
+			buildPhases = (
+				A716B7B9E2608A5BB63CEB56D2F9969B /* Headers */,
+				6EEE38A533DC110CBD676D1BB3D95CEF /* Sources */,
+				2E7E1E29129B3855D9E2D34E6272D333 /* Frameworks */,
+				05AB61C33A6C6915860167E058520BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E9055ACB78AE59EC81CEFF1111FCA72 /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomSumPerform_Example";
+			productName = Pods_CustomSumPerform_Example;
+			productReference = B48F11C2B96BCF3EBEE1C1B488E24DD0 /* Pods_CustomSumPerform_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0913834069AA92DE12F140B44CB59D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC78E4474E4B7BA0AA7E25DB68074270 /* CustomSumPerform */,
+				DFEE8FE863D41C001761CA4D740A63E8 /* Pods-CustomSumPerform_Example */,
+				096710A87156A05A99B9FAED8C6FB51C /* Pods-CustomSumPerform_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05AB61C33A6C6915860167E058520BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573B5093466A2914C559239FF2CFB9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17FFF49B80F6DA1EF96ABBB6E9F9EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F97438F26AB02A82DB77E923287454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BC2831A632FCB1FA04CA8167883926 /* Pods-CustomSumPerform_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEE38A533DC110CBD676D1BB3D95CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C93CECD558C5DABC6A7299F2992847 /* Pods-CustomSumPerform_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CAB7BA715AB8E6ED72FBC7C987D08C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A30F2E9D0CC0C3F7DCABB53955F4DA /* CustomSumPerform.swift in Sources */,
+				C75F92D0695252977B5D318C8D651D97 /* CustomSumPerform-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FCA3B552EC526B32131C8577CC1912B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CustomSumPerform_Example";
+			target = DFEE8FE863D41C001761CA4D740A63E8 /* Pods-CustomSumPerform_Example */;
+			targetProxy = 9EBEB84108B70E30311CEDF4FB4D87CE /* PBXContainerItemProxy */;
+		};
+		7E9055ACB78AE59EC81CEFF1111FCA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CustomSumPerform;
+			target = AC78E4474E4B7BA0AA7E25DB68074270 /* CustomSumPerform */;
+			targetProxy = B3C6D65E0B28BAEB9ABE855BCA9B6F19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F79387E9759937EA408902B0EACCC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13669ADA2CDC838A9947CCA9D2CBA9BC /* Pods-CustomSumPerform_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomSumPerform_Tests/Pods-CustomSumPerform_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomSumPerform_Tests/Pods-CustomSumPerform_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		507F4649489BBCAB2BAEE87F95F14595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313A0743F28620E784874679F161DE94 /* CustomSumPerform.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CustomSumPerform/CustomSumPerform-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CustomSumPerform/CustomSumPerform-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CustomSumPerform/CustomSumPerform.modulemap";
+				PRODUCT_MODULE_NAME = CustomSumPerform;
+				PRODUCT_NAME = CustomSumPerform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6731BEFC16C33EAF8A3CCC2EAC824AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002AB7E2A1EB3EEB742B40951B71334F /* Pods-CustomSumPerform_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomSumPerform_Example/Pods-CustomSumPerform_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomSumPerform_Example/Pods-CustomSumPerform_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		93892A892C0390B2DCC617A5110F215B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CC2BA6804931096C77F43CA632B404 /* Pods-CustomSumPerform_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomSumPerform_Example/Pods-CustomSumPerform_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomSumPerform_Example/Pods-CustomSumPerform_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBC85B7D516C6D385A7CB3F368AA96EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834EE173F0B5EC5313239CD0C6305620 /* Pods-CustomSumPerform_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomSumPerform_Tests/Pods-CustomSumPerform_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomSumPerform_Tests/Pods-CustomSumPerform_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5879F1D800283E77131964569B35EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB1AA5AEB504CA3635807E6B4BC5D4C /* CustomSumPerform.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CustomSumPerform/CustomSumPerform-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CustomSumPerform/CustomSumPerform-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CustomSumPerform/CustomSumPerform.modulemap";
+				PRODUCT_MODULE_NAME = CustomSumPerform;
+				PRODUCT_NAME = CustomSumPerform;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082A51BA9289A7A9A3A8FAB7CCE9323D /* Build configuration list for PBXNativeTarget "Pods-CustomSumPerform_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93892A892C0390B2DCC617A5110F215B /* Debug */,
+				6731BEFC16C33EAF8A3CCC2EAC824AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7162FFFDDE72A6E5F30CD3FC6C51D362 /* Build configuration list for PBXNativeTarget "Pods-CustomSumPerform_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F79387E9759937EA408902B0EACCC66 /* Debug */,
+				BBC85B7D516C6D385A7CB3F368AA96EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34085A989D4DDC041F4CEFB599BFBDD /* Build configuration list for PBXNativeTarget "CustomSumPerform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5879F1D800283E77131964569B35EE7 /* Debug */,
+				507F4649489BBCAB2BAEE87F95F14595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
